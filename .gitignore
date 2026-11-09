@@ -1,0 +1,7 @@
+/private/
+__pycache__/
+*.pyc
+.DS_Store
+/cases/*-webformular.*
+/docs/recht/
+/docs/evidence/2026-11-08/

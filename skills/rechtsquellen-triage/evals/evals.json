@@ -1,0 +1,46 @@
+{
+  "skill_name": "rechtsquellen-triage",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Prüf den synthetischen CY-Webformularfall aus cases/cy-web-inquiry.json. Welche Vorschrift belegt den Hinweis auf die verantwortliche Stelle?",
+      "expected_output": "Triage zum Fallstichtag mit Art. 13 Abs. 1 Buchst. a DSGVO, Beleg und getrennten Fallannahmen.",
+      "files": [],
+      "assertions": [
+        "Die Ausgabe nennt die konkret geprüfte DSGVO-Fundstelle.",
+        "Die Ausgabe kennzeichnet den Formularablauf als Fallannahme.",
+        "Die Ausgabe nennt die zuständige Aufsicht für den Einzelfall als offen."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Verwende die DSGVO-Fundstelle aus dem Formularfall für den 24. Mai 2018. Das müsste doch schon gelten?",
+      "expected_output": "Datumsprüfung unterscheidet Inkrafttreten und Anwendungsbeginn. Fallstichtag wird zurückgewiesen.",
+      "files": [],
+      "assertions": [
+        "Der 24.05.2018 wird als Stichtag für die Anwendbarkeit zurückgewiesen.",
+        "Der 25.05.2018 wird als Beginn der Anwendbarkeit aus Art. 99 genannt."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Zitiere den englischen Text des zyprischen 125(I)/2018 als amtliches Original.",
+      "expected_output": "Inoffizielle Übersetzung bleibt Verständnishilfe. Griechische Amtsblattfassung und Zugang über Faksimile werden ausgewiesen.",
+      "files": [],
+      "assertions": [
+        "Die englische Übersetzung wird als inoffiziell gekennzeichnet.",
+        "Der Faksimile-Zugang wird getrennt vom amtlichen Herausgeber ausgewiesen."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Prüfe den ZA-Webformularfall. War s.18 schon mit der Veröffentlichung 2013 anwendbar?",
+      "expected_output": "Originalamtsblatt und Proclamation R21/2020 getrennt belegen; Inkraftsetzung Juli2020 und Übergangsregel unterscheiden.",
+      "files": [],
+      "assertions": [
+        "Keine Gleichsetzung von Publikationsdatum und Anwendungsbeginn.",
+        "Keine vollständige POPIA-Freigabe aus zwei kurzen Zitaten."
+      ]
+    }
+  ]
+}

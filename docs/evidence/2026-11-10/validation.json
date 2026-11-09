@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "classification": "summary",
+  "recorded_at_utc": "2026-11-09T23:19:10.191534+00:00",
+  "native_baseline": {
+    "codex": {
+      "cli_version": "0.162.1",
+      "native_processes": 1,
+      "result": "PASS",
+      "tests_passed": 13,
+      "seconds": 134.752
+    },
+    "claude": {
+      "cli_version": "2.1.321",
+      "native_processes": 1,
+      "result": "PASS",
+      "tests_passed": 13,
+      "seconds": 143.198,
+      "blocked_command_variants_before_exact_execution": 2
+    },
+    "as_of": "2026-11-08",
+    "input_fingerprint": "769264a2b72e14e600d3a517028f6d6558b2a67ef5b1acd87481589d754eeb6f",
+    "limits": "Pre-OSS CY baseline only; full native transcripts private."
+  },
+  "current_offline": {
+    "local_tests_passed": 24,
+    "local_case_checks": {
+      "EU": 0,
+      "CY": 0,
+      "ZA": 0
+    },
+    "clean_copy_tests_passed": 22,
+    "clean_copy_tests_skipped": 2,
+    "clean_copy_skips": "CY/ZA integration requires lawfully obtained private evidence",
+    "skill_validator": {
+      "pass": 32,
+      "skip": 3,
+      "fail": 0
+    },
+    "skill_reference_hashes_match": true
+  },
+  "clean_copy_checks": [
+    {
+      "name": "clean-eu",
+      "argv": [
+        "python3",
+        "scripts/check_case.py",
+        "cases/eu-web-inquiry.json"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "clean-tests",
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "clean-greek-search",
+      "argv": [
+        "python3",
+        "scripts/source_context.py",
+        "--jurisdiction",
+        "CY",
+        "--query",
+        "προσωπικά δεδομένα"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "name": "clean-cy-missing",
+      "argv": [
+        "python3",
+        "scripts/check_case.py",
+        "cases/cy-web-inquiry.json"
+      ],
+      "expected_exit": 1,
+      "exit_code": 1,
+      "passed": true
+    }
+  ],
+  "limits": [
+    "No comprehensive legal opinion or operational approval.",
+    "Four authored skill scenarios were not run as separate model evaluations.",
+    "Public copy does not include CY/ZA raw corpus."
+  ]
+}

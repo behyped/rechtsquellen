@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "manifest_path": "docs/evidence/catalog-manifest.json",
+  "sources": {
+    "cy-gazette": {
+      "jurisdiction": "CY",
+      "authority": "Government Printing Office der Republik Zypern",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "gazette_directory",
+      "language": "el",
+      "publication_citation": "Επίσημη Εφημερίδα της Δημοκρατίας",
+      "published_on": null,
+      "publisher_url": "https://www.gov.cy/service/episimi-efimerida-tis-dimokratias/",
+      "access_url": "https://www.gov.cy/service/episimi-efimerida-tis-dimokratias/",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Weitergaberechte ungeprüft. Verweis und lokale Prüfsicherung."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-gazette-gateway.html",
+        "cy-gazette-4670-original.pdf"
+      ],
+      "limits": "Amtlicher Einstieg im Suchindex; der direkte HTML-Abruf lieferte 403 und der direkte Abruf der Ausgabe 4670 lief in ein Timeout. Das zitierte Faksimile ist separat erfasst."
+    },
+    "cy-companies": {
+      "jurisdiction": "CY",
+      "authority": "Department of Registrar of Companies and Intellectual Property",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "company_register_directory",
+      "language": "en",
+      "publication_citation": "Conducting a company search",
+      "published_on": null,
+      "publisher_url": "https://www.companies.gov.cy/en/business-entities/2-company/5-lifecycle/1-starting-a-company/5-understanding/1-company-search",
+      "access_url": "https://www.companies.gov.cy/en/business-entities/2-company/5-lifecycle/1-starting-a-company/5-understanding/1-company-search",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Weitergaberechte ungeprüft. Verweis und lokale Prüfsicherung."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-companies.html"
+      ],
+      "limits": "Suchweg erfasst. Es wurde keine Registerauskunft über eine Firma abgerufen.",
+      "keywords": [
+        "company register",
+        "companies",
+        "Gesellschaft",
+        "Unternehmen",
+        "εταιρείες"
+      ]
+    },
+    "cy-dpa": {
+      "jurisdiction": "CY",
+      "authority": "Office of the Commissioner for Personal Data Protection",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "supervisory_guidance",
+      "language": "en",
+      "publication_citation": "Law 125(I)2018",
+      "published_on": null,
+      "publisher_url": "https://www.gov.cy/dataprotection/en/documents/law-125i2018-2/",
+      "access_url": "https://www.gov.cy/dataprotection/en/documents/law-125i2018-2/",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Weitergaberechte ungeprüft. Verweis und lokale Prüfsicherung."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-dpa-law125.html",
+        "cy-dpa-original.html"
+      ],
+      "limits": "Amtliche Behördenseite im Suchindex. Direkter Abruf blockiert. Die dort angebotene englische Übersetzung ist als inoffiziell gekennzeichnet.",
+      "keywords": [
+        "data protection",
+        "personal data",
+        "privacy",
+        "Datenschutz",
+        "DSGVO",
+        "GDPR",
+        "προσωπικά δεδομένα",
+        "προστασία δεδομένων",
+        "125(I)/2018"
+      ]
+    },
+    "cy-dpa-translation": {
+      "jurisdiction": "CY",
+      "authority": "Office of the Commissioner for Personal Data Protection",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "unofficial_translation",
+      "language": "en",
+      "publication_citation": "English unofficial translation of Law 125(I)/2018",
+      "published_on": null,
+      "publisher_url": "https://www.gov.cy/media/sites/175/2026/01/Law-125I-of-2018-ENG-final.pdf",
+      "access_url": "https://www.gov.cy/media/sites/175/2026/01/Law-125I-of-2018-ENG-final.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Weitergaberechte ungeprüft. Verweis und lokale Prüfsicherung."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-dpa-translation.pdf"
+      ],
+      "limits": "Download 403. Als Übersetzung eine Verständnishilfe, Normzitate aus dem griechischen Amtsblatt.",
+      "keywords": [
+        "data protection",
+        "personal data",
+        "privacy",
+        "Datenschutz",
+        "DSGVO",
+        "GDPR",
+        "προσωπικά δεδομένα",
+        "προστασία δεδομένων",
+        "125(I)/2018"
+      ],
+      "related_source_ids": [
+        "cy-law125-art19"
+      ]
+    },
+    "cy-consumer": {
+      "jurisdiction": "CY",
+      "authority": "Consumer Protection Service",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "supervisory_guidance",
+      "language": "en",
+      "publication_citation": "Consumer Protection Service",
+      "published_on": null,
+      "publisher_url": "https://consumer.gov.cy/en/",
+      "access_url": "https://consumer.gov.cy/en/",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Weitergaberechte ungeprüft. Verweis und lokale Prüfsicherung."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-consumer.html"
+      ],
+      "limits": "Behördeneinstieg. Verbraucherschutznormen und Anwendungsbereiche gesondert prüfen.",
+      "keywords": [
+        "consumer protection",
+        "Verbraucherschutz",
+        "καταναλωτής"
+      ]
+    },
+    "cy-tax": {
+      "jurisdiction": "CY",
+      "authority": "Tax Department des Ministry of Finance",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "tax_authority_directory",
+      "language": "en",
+      "publication_citation": "Tax Department",
+      "published_on": null,
+      "publisher_url": "https://www.gov.cy/mof-tax/en/",
+      "access_url": "https://www.gov.cy/mof-tax/en/",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Weitergaberechte ungeprüft. Verweis und lokale Prüfsicherung."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-tax.html",
+        "cy-tax-original.html"
+      ],
+      "limits": "Amtlicher Einstieg im Suchindex. Direkter Abruf 403, bisheriger Behördenhost Timeout. Keine steuerliche Frist oder Auskunft übernommen.",
+      "keywords": [
+        "tax taxation",
+        "Steuer",
+        "φορολογία"
+      ]
+    },
+    "cy-law125-art19": {
+      "jurisdiction": "CY",
+      "authority": "Government Printing Office der Republik Zypern",
+      "issuer_class": "official",
+      "host_class": "secondary_mirror",
+      "kind": "legislation",
+      "language": "el",
+      "publication_citation": "Ν. 125(I)/2018, Επίσημη Εφημερίδα Nr. 4670, Παράρτημα Πρώτο, Μέρος I, 31.07.2018",
+      "published_on": "2018-07-31",
+      "publisher_url": "https://www.mof.gov.cy/mof/gpo/gazette.nsf/E1762CD230F14EFCC225872C004068B9/%24file/4670%2031%207%202018%20PARARTHMA%201o%20MEROS%20I.pdf",
+      "access_url": "https://www.cylaw.org/nomoi/arith/2018_1_125.pdf",
+      "data_license": {
+        "status": "restricted-reference-only",
+        "reference": "https://www.cylaw.org/terms.html",
+        "scope": "Public metadata and short attributed citation only. No CyLaw corpus distribution or automatic bulk collection."
+      },
+      "version": {
+        "id": "CY:125(I)/2018:art19-1:el:2018-07-31",
+        "in_force_from": "2018-07-31",
+        "applies_from": "2018-07-31",
+        "applies_until_exclusive": null,
+        "checked_through": "2026-11-08",
+        "review_capture_ids": [
+          "cy-law125-history.html",
+          "cy-law26-gazette.pdf",
+          "cy-constitution-art82.html"
+        ],
+        "basis": "Art. 82 der Verfassung sieht Inkrafttreten mit Amtsblattpublikation vor, sofern kein anderer Tag genannt ist. CyLaw führt 26(I)/2022 als Änderung. Deren Art. 2 und 3 ändern Art. 2 und 3 des Grundgesetzes; der zitierte Art. 19 Abs. 1 bleibt im Originalwortlaut."
+      },
+      "provisions": {
+        "Art. 19 Abs. 1": {
+          "quote": "Ο Επίτροπος Προστασίας Δεδομένων Προσωπικού Χαρακτήρα,",
+          "capture_id": "cy-law125-gazette.pdf",
+          "pdf_page": 7,
+          "pinpoint": "S. 833"
+        }
+      },
+      "evidence": [
+        "cy-law125-gazette.pdf",
+        "cy-gazette-4670-original.pdf",
+        "cy-law125-history.html",
+        "cy-law26-gazette.pdf",
+        "cy-constitution-art82.html"
+      ],
+      "limits": "Griechisches Amtsblattfaksimile auf CyLaw; direkter Download beim Government Printing Office nicht erreichbar. Prüfung des Änderungsstands auf Art. 19 Abs. 1 und die verfügbare Änderungsübersicht begrenzt.",
+      "keywords": [
+        "data protection",
+        "personal data",
+        "privacy",
+        "Datenschutz",
+        "DSGVO",
+        "GDPR",
+        "προσωπικά δεδομένα",
+        "προστασία δεδομένων",
+        "125(I)/2018"
+      ],
+      "related_source_ids": [
+        "cy-law26-amendment",
+        "cy-law125-consolidation",
+        "cy-dpa-translation",
+        "cy-gazette"
+      ]
+    },
+    "cy-law26-amendment": {
+      "jurisdiction": "CY",
+      "authority": "Government Printing Office der Republik Zypern",
+      "issuer_class": "official",
+      "host_class": "secondary_mirror",
+      "kind": "amending_act",
+      "language": "el",
+      "publication_citation": "Ν. 26(I)/2022, Επίσημη Εφημερίδα Nr. 4878, 11.03.2022, S. 337–338",
+      "published_on": "2022-03-11",
+      "publisher_url": "https://www.mof.gov.cy/mof/gpo/gazette.nsf/A5FE79900E4DF57FC225880200307BDD/%24file/4878%20%2011%203%202022%20PARARTHMA%201o%20MEROS%20%CE%99.pdf",
+      "access_url": "https://www.cylaw.org/nomoi/arith/2022_1_026.pdf",
+      "data_license": {
+        "status": "restricted-reference-only",
+        "reference": "https://www.cylaw.org/terms.html",
+        "scope": "Public metadata and short attributed citation only. No CyLaw corpus distribution or automatic bulk collection."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-law26-gazette.pdf"
+      ],
+      "limits": "Belegt die Änderung der Art. 2 und 3 des Grundgesetzes. Eigenständiger Änderungsbeleg, keine geprüfte Zitierfreigabe seiner Vorschriften.",
+      "keywords": [
+        "data protection",
+        "personal data",
+        "privacy",
+        "Datenschutz",
+        "DSGVO",
+        "GDPR",
+        "προσωπικά δεδομένα",
+        "προστασία δεδομένων",
+        "125(I)/2018"
+      ]
+    },
+    "cy-law125-consolidation": {
+      "jurisdiction": "CY",
+      "authority": "CyLaw",
+      "issuer_class": "secondary",
+      "host_class": "secondary",
+      "kind": "secondary_consolidation",
+      "language": "el",
+      "publication_citation": "125(I)/2018, konsolidierte Darstellung und Änderungsindex",
+      "published_on": null,
+      "publisher_url": "https://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html",
+      "access_url": "https://www.cylaw.org/nomoi/enop/non-ind/2018_1_125/full.html",
+      "data_license": {
+        "status": "restricted-reference-only",
+        "reference": "https://www.cylaw.org/terms.html",
+        "scope": "Public metadata and short attributed citation only. No CyLaw corpus distribution or automatic bulk collection."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-law125-history.html"
+      ],
+      "limits": "Sekundärer Index zur Kontrolle der Änderungen, Originaltexte bleiben eigenständige Belege.",
+      "keywords": [
+        "data protection",
+        "personal data",
+        "privacy",
+        "Datenschutz",
+        "DSGVO",
+        "GDPR",
+        "προσωπικά δεδομένα",
+        "προστασία δεδομένων",
+        "125(I)/2018"
+      ]
+    },
+    "cy-constitution-art82": {
+      "jurisdiction": "CY",
+      "authority": "Republik Zypern",
+      "issuer_class": "official",
+      "host_class": "secondary_mirror",
+      "kind": "constitutional_reference",
+      "language": "el",
+      "publication_citation": "Σύνταγμα της Κυπριακής Δημοκρατίας, Art. 82",
+      "published_on": null,
+      "publisher_url": null,
+      "access_url": "https://www.cylaw.org/nomoi/enop/ind/syntagma/section-sc9a5b67a0-76c4-04d1-5403-4bb6263b4eb2.html",
+      "data_license": {
+        "status": "restricted-reference-only",
+        "reference": "https://www.cylaw.org/terms.html",
+        "scope": "Public metadata and short attributed citation only. No CyLaw corpus distribution or automatic bulk collection."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "cy-constitution-art82.html"
+      ],
+      "limits": "CyLaw-Wiedergabe des griechischen Texts zur allgemeinen Inkrafttretensregel. Hintergrundbeleg des Piloten."
+    },
+    "eu-gdpr-art13": {
+      "jurisdiction": "EU",
+      "authority": "Europäisches Parlament und Rat; Amt für Veröffentlichungen",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "legislation",
+      "language": "en",
+      "publication_citation": "Verordnung (EU) 2016/679, ABl. L 119, 04.05.2016",
+      "published_on": "2016-05-04",
+      "publisher_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng/pdf",
+      "access_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng/pdf",
+      "data_license": {
+        "status": "permitted-with-attribution",
+        "reference": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html?locale=en",
+        "scope": "EUR-Lex-Rechtstexte gemäß dortiger Wiederverwendungsregel und Entscheidung 2011/833/EU. Quelle, unveränderter Text und Ausnahmevorbehalte beachten."
+      },
+      "version": {
+        "id": "EU:32016R0679:art13-1-a:en:2016-05-04",
+        "in_force_from": "2016-05-24",
+        "applies_from": "2018-05-25",
+        "applies_until_exclusive": null,
+        "checked_through": "2026-11-08",
+        "review_capture_ids": [
+          "eu-gdpr-version-en.html",
+          "eu-gdpr-corrigendum-en.pdf"
+        ],
+        "basis": "Art. 99 Abs. 1 und 2 unterscheiden Inkrafttreten und Anwendbarkeit. EUR-Lex führt 02016R0679-20160504, EN 000.002, mit Berichtigung 32016R0679R(02). Art. 13 Abs. 1 Buchst. a bleibt im geprüften englischen Wortlaut unverändert."
+      },
+      "provisions": {
+        "Art. 13 Abs. 1 Buchst. a": {
+          "quote": "the identity and the contact details of the controller",
+          "capture_id": "eu-gdpr-oj-en.pdf",
+          "pdf_page": 40,
+          "pinpoint": "S. 40"
+        }
+      },
+      "evidence": [
+        "eu-gdpr-oj-en.pdf",
+        "eu-gdpr-version-en.html",
+        "eu-gdpr-corrigendum-en.pdf"
+      ],
+      "limits": "Geprüft ist der einzelne englische Absatzbestandteil. Andere Absätze, Sprachen und spätere Stichtage brauchen einen eigenen Fassungscheck.",
+      "keywords": [
+        "data protection",
+        "personal data",
+        "privacy",
+        "Datenschutz",
+        "DSGVO",
+        "GDPR",
+        "προσωπικά δεδομένα",
+        "προστασία δεδομένων",
+        "125(I)/2018"
+      ]
+    },
+    "eu-gdpr-consolidation": {
+      "jurisdiction": "EU",
+      "authority": "Amt für Veröffentlichungen der Europäischen Union",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "consolidation",
+      "language": "en",
+      "publication_citation": "CELEX 02016R0679-20160504, EN 000.002",
+      "published_on": null,
+      "publisher_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02016R0679-20160504",
+      "access_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A02016R0679-20160504",
+      "data_license": {
+        "status": "permitted-with-attribution",
+        "reference": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html?locale=en",
+        "scope": "EUR-Lex-Rechtstexte gemäß dortiger Wiederverwendungsregel und Entscheidung 2011/833/EU. Quelle, unveränderter Text und Ausnahmevorbehalte beachten."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "eu-gdpr-version-en.html"
+      ],
+      "limits": "Amtlicher Zugang zu einer dokumentarischen Konsolidierung. Die authentische Veröffentlichung und Berichtigung sind eigenständige Belege.",
+      "keywords": [
+        "data protection",
+        "personal data",
+        "privacy",
+        "Datenschutz",
+        "DSGVO",
+        "GDPR",
+        "προσωπικά δεδομένα",
+        "προστασία δεδομένων",
+        "125(I)/2018"
+      ]
+    },
+    "eu-gdpr-corrigendum": {
+      "jurisdiction": "EU",
+      "authority": "Amt für Veröffentlichungen der Europäischen Union",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "corrigendum",
+      "language": "en",
+      "publication_citation": "CELEX 32016R0679R(02), ABl. L 127, 23.05.2018, S. 2",
+      "published_on": "2018-05-23",
+      "publisher_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32016R0679R%2802%29",
+      "access_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32016R0679R%2802%29",
+      "data_license": {
+        "status": "permitted-with-attribution",
+        "reference": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html?locale=en",
+        "scope": "EUR-Lex-Rechtstexte gemäß dortiger Wiederverwendungsregel und Entscheidung 2011/833/EU. Quelle, unveränderter Text und Ausnahmevorbehalte beachten."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "eu-gdpr-corrigendum-en.pdf"
+      ],
+      "limits": "Englische Berichtigung als Nachweis der Fassungsprüfung.",
+      "keywords": [
+        "data protection",
+        "personal data",
+        "privacy",
+        "Datenschutz",
+        "DSGVO",
+        "GDPR",
+        "προσωπικά δεδομένα",
+        "προστασία δεδομένων",
+        "125(I)/2018"
+      ]
+    },
+    "eu-planet49-judgment": {
+      "jurisdiction": "EU",
+      "authority": "Gerichtshof der Europäischen Union",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "judgment",
+      "language": "en",
+      "publication_citation": "EuGH, Urteil vom 01.10.2019, C-673/17, ECLI:EU:C:2019:801, Planet49",
+      "published_on": null,
+      "publisher_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A62017CJ0673",
+      "access_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A62017CJ0673",
+      "data_license": {
+        "status": "permitted-with-attribution",
+        "reference": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html?locale=en",
+        "scope": "EUR-Lex-Rechtstexte gemäß dortiger Wiederverwendungsregel und Entscheidung 2011/833/EU. Quelle, unveränderter Text und Ausnahmevorbehalte beachten."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "eu-planet49-judgment.html"
+      ],
+      "limits": "Urteilstext über EUR-Lex. Englische Sprachfassung; Verfahrenssprache Deutsch. Identitätsprobe für ECLI, nicht Grundlage des Formularfalls.",
+      "issued_on": "2019-10-01"
+    },
+    "eu-planet49-press": {
+      "jurisdiction": "EU",
+      "authority": "Gerichtshof der Europäischen Union",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "press_release",
+      "language": "en",
+      "publication_citation": "Pressemitteilung Nr. 125/19, 01.10.2019, C-673/17",
+      "published_on": "2019-10-01",
+      "publisher_url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2019-10/cp190125en.pdf",
+      "access_url": "https://curia.europa.eu/jcms/upload/docs/application/pdf/2019-10/cp190125en.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Weitergaberechte ungeprüft. Verweis und lokale Prüfsicherung."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "eu-planet49-curia.pdf"
+      ],
+      "limits": "Identitätsabgleich über CURIA. Der InfoCuria-Weiterleitungslink stellte im Webwerkzeug keinen Urteilstext dar."
+    }
+  }
+}

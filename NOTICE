@@ -1,0 +1,15 @@
+rechtsquellen uses independently authored Python code and agent instructions.
+No source code or complete skill text was copied from the projects below.
+Design references, inspected 8–10 November 2026:
+
+- Klotzkette/claude-fuer-deutsches-recht: specialist routing and verified pinpoints;
+  README dual Apache-2.0 OR MIT, both license files inspected.
+- cyanheads/eur-lex-mcp-server: CELEX/ELI identifiers and version relationships;
+  Apache-2.0.
+- legalize-dev/legalize: law-at-date and version history; MIT software/tooling.
+- WenzhuoXu/lawgent: jurisdiction-filtered context and quotation round trips;
+  MIT, commit 17c39bc80316c2ee435a95a63e4c7f02b52c209b.
+
+These software licenses do not license third-party legal corpora. See DATA-RIGHTS.md.
+Bundled EUR-Lex legal documents remain under the European Union's applicable
+reuse terms; attribution and exact retrieval metadata are retained in the manifest.

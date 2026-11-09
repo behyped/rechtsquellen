@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "manifest_path": "docs/evidence/za-manifest.json",
+  "sources": {
+    "za-popia-s18": {
+      "jurisdiction": "ZA",
+      "authority": "Parliament / President of the Republic of South Africa; Government Printing Works",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "legislation",
+      "language": "en",
+      "publication_citation": "Protection of Personal Information Act 4 of 2013, GG 37067, 26 November 2013",
+      "published_on": "2013-11-26",
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Source reference and short attributed quotation. Raw files remain local; no blanket software relicensing."
+      },
+      "version": {
+        "id": "ZA:4/2013:s18:en:2013-11-26",
+        "in_force_from": "2020-07-01",
+        "applies_from": "2020-07-01",
+        "applies_until_exclusive": null,
+        "checked_through": "2026-11-09",
+        "review_capture_ids": [
+          "za-popia-gazette.pdf",
+          "za-commencement.pdf",
+          "za-popia.pdf",
+          "za-popia-index.html",
+          "za-regulations-2025.pdf",
+          "za-regulations-2026.pdf"
+        ],
+        "basis": "s115 delegates commencement. Proclamation R21/2020 para(a)(i) commences ss2–38 on 1 July 2020. s114(1) separately grants a one-year compliance transition; it does not change the commencement date of s18. Original s18 compared with DoJ compilation and current government index. 2025 notice concerns regulations; 2026 regulation concerns health information. Review is bounded to the quoted text, not an exhaustive POPIA compliance opinion."
+      },
+      "provisions": {
+        "s. 18(1)(b)": {
+          "quote": "the name and address of the responsible party",
+          "capture_id": "za-popia-gazette.pdf",
+          "pdf_page": 16,
+          "pinpoint": "p. 30"
+        },
+        "s. 18(2)(a)": {
+          "quote": "before the information is collected",
+          "capture_id": "za-popia-gazette.pdf",
+          "pdf_page": 16,
+          "pinpoint": "p. 30"
+        }
+      },
+      "evidence": [
+        "za-popia-gazette.pdf",
+        "za-commencement.pdf",
+        "za-popia-index.html"
+      ],
+      "keywords": [
+        "POPIA",
+        "data protection",
+        "privacy",
+        "Datenschutz",
+        "personal information",
+        "web inquiry"
+      ],
+      "related_source_ids": [
+        "za-popia-commencement",
+        "za-popia-regulator",
+        "za-regulations-2025",
+        "za-health-regulations-2026"
+      ],
+      "limits": "Two short excerpts. s18(1), (2), (3), (4), application provisions and any relevant exemptions must be read for actual advice. The DoJ-hosted compilation contains Juta copyright; the quotation is checked in the official original Gazette."
+    },
+    "za-popia-commencement": {
+      "jurisdiction": "ZA",
+      "authority": "Proclamation R21 of 2020, GG 43461",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "commencement_instrument",
+      "language": "en",
+      "publication_citation": "Proclamation R21 of 2020, GG 43461",
+      "published_on": null,
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/202006/43461rg11136pr21.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/202006/43461rg11136pr21.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Source reference and short attributed quotation. Raw files remain local; no blanket software relicensing."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "za-commencement.pdf"
+      ],
+      "keywords": [
+        "Proclamation R21 of 2020, GG 43461"
+      ],
+      "limits": "Source route only; no verified provision or real-entity lookup."
+    },
+    "za-popia-regulator": {
+      "jurisdiction": "ZA",
+      "authority": "Information Regulator — POPIA",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "supervisory_guidance",
+      "language": "en",
+      "publication_citation": "Information Regulator — POPIA",
+      "published_on": null,
+      "publisher_url": "https://inforegulator.org.za/popia/",
+      "access_url": "https://inforegulator.org.za/popia/",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Source reference and short attributed quotation. Raw files remain local; no blanket software relicensing."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "Information Regulator — POPIA"
+      ],
+      "limits": "Source route only; no verified provision or real-entity lookup."
+    },
+    "za-cipc": {
+      "jurisdiction": "ZA",
+      "authority": "CIPC — Legislation",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "company_register_directory",
+      "language": "en",
+      "publication_citation": "CIPC — Legislation",
+      "published_on": null,
+      "publisher_url": "https://www.cipc.co.za/?page_id=2721",
+      "access_url": "https://www.cipc.co.za/?page_id=2721",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Source reference and short attributed quotation. Raw files remain local; no blanket software relicensing."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "CIPC — Legislation"
+      ],
+      "limits": "Source route only; no verified provision or real-entity lookup."
+    },
+    "za-sars": {
+      "jurisdiction": "ZA",
+      "authority": "SARS — Primary legislation",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "tax_authority_directory",
+      "language": "en",
+      "publication_citation": "SARS — Primary legislation",
+      "published_on": null,
+      "publisher_url": "https://www.sars.gov.za/legal-counsel/primary-legislation/",
+      "access_url": "https://www.sars.gov.za/legal-counsel/primary-legislation/",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Source reference and short attributed quotation. Raw files remain local; no blanket software relicensing."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "SARS — Primary legislation"
+      ],
+      "limits": "Source route only; no verified provision or real-entity lookup."
+    },
+    "za-concourt": {
+      "jurisdiction": "ZA",
+      "authority": "Constitutional Court — Collections",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "court_directory",
+      "language": "en",
+      "publication_citation": "Constitutional Court — Collections",
+      "published_on": null,
+      "publisher_url": "https://collections.concourt.org.za/",
+      "access_url": "https://collections.concourt.org.za/",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Source reference and short attributed quotation. Raw files remain local; no blanket software relicensing."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "Constitutional Court — Collections"
+      ],
+      "limits": "Source route only; no verified provision or real-entity lookup."
+    },
+    "za-regulations-2025": {
+      "jurisdiction": "ZA",
+      "authority": "POPIA regulations amendment notice 6126, GG 52523",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "regulation_notice",
+      "language": "en",
+      "publication_citation": "POPIA regulations amendment notice 6126, GG 52523",
+      "published_on": null,
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/202504/52523gon6126.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/202504/52523gon6126.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Source reference and short attributed quotation. Raw files remain local; no blanket software relicensing."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "za-regulations-2025.pdf"
+      ],
+      "keywords": [
+        "POPIA regulations amendment notice 6126, GG 52523"
+      ],
+      "limits": "Notice points to amended regulations on the regulator website. This capture is the notice, not the complete regulations. No general compliance clearance."
+    },
+    "za-health-regulations-2026": {
+      "jurisdiction": "ZA",
+      "authority": "Health information regulations notice 7198, GG 54268",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "regulation",
+      "language": "en",
+      "publication_citation": "Health information regulations notice 7198, GG 54268",
+      "published_on": null,
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/202603/54268gon7198.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/202603/54268gon7198.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Source reference and short attributed quotation. Raw files remain local; no blanket software relicensing."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [
+        "za-regulations-2026.pdf"
+      ],
+      "keywords": [
+        "Health information regulations notice 7198, GG 54268"
+      ],
+      "limits": "Health-information rules under s112(2)(c), read in captured document. Hypothetical pilot excludes health information. Actual applicability needs case facts."
+    }
+  }
+}

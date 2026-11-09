@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "za-web-inquiry",
+  "entity_ref": "example:za-company",
+  "project_ref": "example:web-inquiry",
+  "markets": [
+    "ZA (synthetic assumption)"
+  ],
+  "as_of": "2026-11-09",
+  "observations": [],
+  "assumptions": [
+    "A hypothetical private body in South Africa is the responsible party for an ordinary web inquiry form.",
+    "Name and email are collected directly from the person.",
+    "No health or other special personal information is intended; no specific exemption is assumed."
+  ],
+  "unknowns": [
+    "Actual entity, jurisdictional application, controller/responsible-party role, purpose, fields, recipients, retention, cross-border transfers and s18 exceptions.",
+    "Other POPIA duties, regulations, PAIA manual, information officer and sector-specific requirements."
+  ],
+  "review_status": "Local synthetic pilot; no real business or legal approval.",
+  "citations": [
+    {
+      "source_id": "za-popia-s18",
+      "version_id": "ZA:4/2013:s18:en:2013-11-26",
+      "locator": "s. 18(1)(b)",
+      "quote": "the name and address of the responsible party"
+    },
+    {
+      "source_id": "za-popia-s18",
+      "version_id": "ZA:4/2013:s18:en:2013-11-26",
+      "locator": "s. 18(2)(a)",
+      "quote": "before the information is collected"
+    }
+  ]
+}

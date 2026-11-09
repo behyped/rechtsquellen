@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "eu-web-inquiry",
+  "entity_ref": "example:eu-controller",
+  "project_ref": "example:web-inquiry",
+  "markets": [
+    "DE als Musterannahme"
+  ],
+  "as_of": "2026-11-08",
+  "observations": [],
+  "assumptions": [
+    "A hypothetical Cyprus company determines the purposes and means of a web inquiry form.",
+    "The form collects name and email directly from a natural person.",
+    "Germany is an assumed target market."
+  ],
+  "unknowns": [
+    "Actual operator and controller role, fields, recipients, legal basis, retention and cross-border supervisory competence."
+  ],
+  "review_status": "Synthetic source triage; no operational or legal approval.",
+  "citations": [
+    {
+      "source_id": "eu-gdpr-art13",
+      "version_id": "EU:32016R0679:art13-1-a:en:2016-05-04",
+      "locator": "Art. 13 Abs. 1 Buchst. a",
+      "quote": "the identity and the contact details of the controller"
+    }
+  ]
+}
