@@ -33,7 +33,7 @@ Absatzzuordnung oder eine rechtliche Schlussfolgerung. Kuratierung, Herkunfts-
 und Fassungsbewertung bleiben überprüfbare Facharbeit. Der CY-Ausschnitt benennt
 nur die Behörde. Die Tests begründen keine allgemeine Rechts- oder Betriebsfreigabe.
 
-## Offline-Prüfungen der öffentlichen Fassung
+## Offline-Prüfungen der ersten öffentlichen Fassung
 
 - Lokaler Arbeitsstand: EU-, CY- und ZA-Fallcheck jeweils Exit0; 24 Tests bestanden.
 - Öffentliche Kopie ohne private Belege: EU-Beispielcheck Exit0; 22 Tests bestanden,
@@ -47,3 +47,23 @@ nur die Behörde. Die Tests begründen keine allgemeine Rechts- oder Betriebsfre
 
 [Maschinenlesbarer Prüfbericht](evidence/2026-11-10/validation.json).
 
+
+## ZA-Arbeitsort und Änderungsprüfer · 10.11.2026
+
+- 37 lokale Tests bestanden; davon 13 neue Monitor-/Transportprüfungen.
+- Frische öffentliche Kopie: 35 bestanden, zwei private Länderintegrationen SKIP.
+  EU-Fall Exit0; leere Monitorablage korrekt als überfällig gemeldet (Exit2).
+- Zehn neue amtliche HTTP-Abrufe erfolgreich: fünf Originalgesetze und fünf
+  Indexseiten. Zwei bestehende POPIA-Belege ohne neuen Abruf hashgeprüft übernommen.
+  Alle sechs PDFs lokal auf den ersten Seiten identifiziert; zwölf Rohkörper gesichert.
+- Separater kontrollierter Test: Ausgangsstand, veränderter Inhalt, Duplikat und
+  HTTP-Fehler. Drei bestehende private Projektverweise korrekt als Kandidaten
+  ausgegeben. Die synthetische Änderung hat den echten Quellenstand nicht verändert.
+- HTTP-Umleitung auf einen fremden Host wird vor dem Folgeabruf gestoppt;
+  Header-Cookies werden ausgelassen. Zeitbudget, Parallel-Lock, beschädigte
+  Dateien, HTML-Fehlerseiten und unveränderte Navigationsbereiche sind geprüft.
+- Kein Modelllauf, M1-Deploy, Zeitplan oder Nachrichtenversand in dieser Erweiterung.
+  Die früheren nativen CY-Läufe werden dadurch weder wiederholt noch erweitert.
+
+[Abrufmanifest](evidence/za-library-manifest.json) ·
+[Technischer Prüfbericht](evidence/2026-11-10/za-workspace-validation.json).

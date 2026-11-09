@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "indexed_at_utc": "2026-11-09T23:38:47.438922+00:00",
+  "note": "Ten fresh public-source HTTP captures; two existing POPIA captures reused with original retrieval UTC. Raw files remain private. No complete current consolidation.",
+  "captures": [
+    {
+      "source_id": "za-popia-act",
+      "title": "Protection of Personal Information Act 4 of 2013 — original publication",
+      "source_url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf",
+      "retrieved_at_utc": "2026-11-09T23:09:03.931736+00:00",
+      "http_status": 200,
+      "bytes": 394447,
+      "sha256": "148e8d014a41926f2c4c596074a1dd5f7b75735fcd3e8b7ae5edfadbb7f5d212",
+      "format": "pdf",
+      "path": "private/monitoring/za/objects/148e8d014a41926f2c4c596074a1dd5f7b75735fcd3e8b7ae5edfadbb7f5d212",
+      "capture_receipt": "private/monitoring/za/captures/2b4a139b9ea749eb8a4d179f0db4a592.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one original Gazette; no pagination",
+      "known_gaps": [
+        "No linked assets, headers or cookies captured."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-popia-index",
+      "title": "Protection of Personal Information Act 4 of 2013 — official index",
+      "source_url": "https://www.gov.za/nso/documents/protection-personal-information-act",
+      "retrieved_at_utc": "2026-11-09T23:07:49.430391+00:00",
+      "http_status": 200,
+      "bytes": 41672,
+      "sha256": "83be12710f207b2c846fe6d2a83fb28466561a97a7d1d0e02b781b1e2a4502c9",
+      "format": "html",
+      "path": "private/monitoring/za/objects/83be12710f207b2c846fe6d2a83fb28466561a97a7d1d0e02b781b1e2a4502c9",
+      "capture_receipt": "private/monitoring/za/captures/2193770f6dab44cdb30334838c3cd76a.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one URL; no pagination",
+      "known_gaps": [
+        "No rendering, linked assets, headers or cookies captured."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-paia-act",
+      "title": "Promotion of Access to Information Act 2 of 2000 — original publication",
+      "source_url": "https://www.gov.za/sites/default/files/gcis_document/201409/a2-000.pdf",
+      "retrieved_at_utc": "2026-11-09T23:36:19.674509+00:00",
+      "http_status": 200,
+      "bytes": 920404,
+      "sha256": "abc2c108ea46b12d189bae8622f62b71c9082c18e781eaec5d95ea20c590362a",
+      "format": "pdf",
+      "path": "private/monitoring/za/objects/abc2c108ea46b12d189bae8622f62b71c9082c18e781eaec5d95ea20c590362a",
+      "capture_receipt": "private/monitoring/za/captures/46414c859ae4493aad2e80a332d4fba3.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-paia-index",
+      "title": "Promotion of Access to Information Act 2 of 2000 — official index",
+      "source_url": "https://www.gov.za/nr/documents/promotion-access-information-act",
+      "retrieved_at_utc": "2026-11-09T23:36:20.214491+00:00",
+      "http_status": 200,
+      "bytes": 42648,
+      "sha256": "498d1b3cb6b794c083be15ff873f6eec86d920491a60c469a21a2f1dadb60738",
+      "format": "html",
+      "path": "private/monitoring/za/objects/498d1b3cb6b794c083be15ff873f6eec86d920491a60c469a21a2f1dadb60738",
+      "capture_receipt": "private/monitoring/za/captures/45a3d74418504af5b3b04cfa73b3b5d3.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-companies-act",
+      "title": "Companies Act 71 of 2008 — original publication",
+      "source_url": "https://www.gov.za/sites/default/files/gcis_document/201409/321214210.pdf",
+      "retrieved_at_utc": "2026-11-09T23:36:20.442494+00:00",
+      "http_status": 200,
+      "bytes": 788897,
+      "sha256": "6387b2fd4f52a2c71997efbb3b0114f7bcd393cee991255bd73a404d7c85dd40",
+      "format": "pdf",
+      "path": "private/monitoring/za/objects/6387b2fd4f52a2c71997efbb3b0114f7bcd393cee991255bd73a404d7c85dd40",
+      "capture_receipt": "private/monitoring/za/captures/b50498350b594aff8997501c8eef4409.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-companies-index",
+      "title": "Companies Act 71 of 2008 — official index",
+      "source_url": "https://www.gov.za/documents/companies-act",
+      "retrieved_at_utc": "2026-11-09T23:36:20.638482+00:00",
+      "http_status": 200,
+      "bytes": 43301,
+      "sha256": "a38077adfc229c8753a4c831e300cc2fb9ea03049be6ebd64823997aa4ee5b37",
+      "format": "html",
+      "path": "private/monitoring/za/objects/a38077adfc229c8753a4c831e300cc2fb9ea03049be6ebd64823997aa4ee5b37",
+      "capture_receipt": "private/monitoring/za/captures/04ad7fbfc9f5439098eaeeaf673aa779.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-consumer-act",
+      "title": "Consumer Protection Act 68 of 2008 — original publication",
+      "source_url": "https://www.gov.za/sites/default/files/gcis_document/201409/321864670.pdf",
+      "retrieved_at_utc": "2026-11-09T23:36:21.163882+00:00",
+      "http_status": 200,
+      "bytes": 626998,
+      "sha256": "35b70595dcd315e12ee46290bca426facecae33edad9ad3bdc5e5223bfcb1db7",
+      "format": "pdf",
+      "path": "private/monitoring/za/objects/35b70595dcd315e12ee46290bca426facecae33edad9ad3bdc5e5223bfcb1db7",
+      "capture_receipt": "private/monitoring/za/captures/37f6aa6ae47d4a2c955629161ef8bdd0.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-consumer-index",
+      "title": "Consumer Protection Act 68 of 2008 — official index",
+      "source_url": "https://www.gov.za/documents/consumer-protection-act",
+      "retrieved_at_utc": "2026-11-09T23:36:21.354905+00:00",
+      "http_status": 200,
+      "bytes": 41658,
+      "sha256": "c5cbe9a3add669ea030e2335a91d9ed782108caaa908d8c9991431e73a94bad1",
+      "format": "html",
+      "path": "private/monitoring/za/objects/c5cbe9a3add669ea030e2335a91d9ed782108caaa908d8c9991431e73a94bad1",
+      "capture_receipt": "private/monitoring/za/captures/ba40f99bd5b044279e72bad8f4ff3935.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-ecta-act",
+      "title": "Electronic Communications and Transactions Act 25 of 2002 — original publication",
+      "source_url": "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf",
+      "retrieved_at_utc": "2026-11-09T23:36:21.652987+00:00",
+      "http_status": 200,
+      "bytes": 2717594,
+      "sha256": "0e13f57752f7efda55fb03fabb8b48dc88043d5e3163fb95fcfe638086cf13c0",
+      "format": "pdf",
+      "path": "private/monitoring/za/objects/0e13f57752f7efda55fb03fabb8b48dc88043d5e3163fb95fcfe638086cf13c0",
+      "capture_receipt": "private/monitoring/za/captures/8df6f7e9ac9f49a187f78ea3370eef1c.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-ecta-index",
+      "title": "Electronic Communications and Transactions Act 25 of 2002 — official index",
+      "source_url": "https://www.gov.za/documents/electronic-communications-and-transactions-act",
+      "retrieved_at_utc": "2026-11-09T23:36:21.840260+00:00",
+      "http_status": 200,
+      "bytes": 40896,
+      "sha256": "3217b3b03b5b66b1911bae8a6b4324af31a3bfe7c12fb0eceac56bf1a30f4c20",
+      "format": "html",
+      "path": "private/monitoring/za/objects/3217b3b03b5b66b1911bae8a6b4324af31a3bfe7c12fb0eceac56bf1a30f4c20",
+      "capture_receipt": "private/monitoring/za/captures/ac22d79937d74d0ca87adf0440244eca.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-cannabis-act",
+      "title": "Cannabis for Private Purposes Act 7 of 2024 — original publication",
+      "source_url": "https://www.gov.za/sites/default/files/gcis_document/202406/50744-03-06-cannabisforprivatepurposesact-72024.pdf",
+      "retrieved_at_utc": "2026-11-09T23:36:22.058202+00:00",
+      "http_status": 200,
+      "bytes": 336060,
+      "sha256": "01048f50a6dfee6542ef6ccb759a63af802b2fef674ac54172c51ba37010f579",
+      "format": "pdf",
+      "path": "private/monitoring/za/objects/01048f50a6dfee6542ef6ccb759a63af802b2fef674ac54172c51ba37010f579",
+      "capture_receipt": "private/monitoring/za/captures/8fbc721e54b740c0a6aa6c04994fd3f2.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    },
+    {
+      "source_id": "za-cannabis-index",
+      "title": "Cannabis for Private Purposes Act 7 of 2024 — official index",
+      "source_url": "https://www.gov.za/documents/acts/cannabis-private-purposes-act-7-2024-english-sepedi-03-jun-2024",
+      "retrieved_at_utc": "2026-11-09T23:36:22.247254+00:00",
+      "http_status": 200,
+      "bytes": 40932,
+      "sha256": "2a4af6e5d8f070f76119929709f80c367d6c9caa92936c4bcb03e7f36a34e30a",
+      "format": "html",
+      "path": "private/monitoring/za/objects/2a4af6e5d8f070f76119929709f80c367d6c9caa92936c4bcb03e7f36a34e30a",
+      "capture_receipt": "private/monitoring/za/captures/fa131b8d768742f08ae5e2300a7edd24.json",
+      "classification": "normalized-provenance-index",
+      "coverage": "one configured URL and redirects; no linked documents or pagination crawled",
+      "known_gaps": [
+        "Cookies/authentication headers omitted; no browser rendering; no legal review."
+      ],
+      "legal_review": "not_advanced"
+    }
+  ]
+}

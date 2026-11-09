@@ -29,3 +29,10 @@ python3 scripts/check_case.py cases/za-web-inquiry.json --catalog sources/za.jso
 Die Rohbelege bleiben lokal unter `private/evidence/`. Das öffentliche Manifest
 nennt Quellen, Zeiten und Hashes. CIPC, SARS, Datenschutzaufsicht und Constitutional
 Court sind Einstiegskarten; es wurde kein realer Betrieb oder Registerbestand geprüft.
+
+## Dauerhafter Arbeitsort
+
+Der [Bibliotheks- und Aktualisierungsablauf](../monitoring/WORKSPACE.md) ergänzt
+den engen Zitatpiloten um sechs Originalgesetze und deren amtliche Indexseiten.
+Neue archivierte Originale haben noch keine geprüften Fassungs-/Zitatdaten.
+Die kuratierten POPIA-Stichtage oben werden durch die Archivierung nicht erweitert.

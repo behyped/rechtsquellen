@@ -242,6 +242,146 @@
         "Health information regulations notice 7198, GG 54268"
       ],
       "limits": "Health-information rules under s112(2)(c), read in captured document. Hypothetical pilot excludes health information. Actual applicability needs case facts."
+    },
+    "za-paia-act": {
+      "jurisdiction": "ZA",
+      "authority": "Parliament / President of South Africa; Government Printing Works",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "legislation",
+      "language": "en",
+      "publication_citation": "Promotion of Access to Information Act 2 of 2000 — original publication",
+      "published_on": null,
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/201409/a2-000.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/201409/a2-000.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Local archival copy; not redistributed or relicensed."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "Promotion of Access to Information Act 2 of 2000 — original publication",
+        "access-to-information"
+      ],
+      "related_source_ids": [],
+      "limits": "Original publication, not a current consolidation. Version/commencement/amendments require review. Local archival provenance is in the monitoring capture receipts.",
+      "archive_manifest": "docs/evidence/za-library-manifest.json",
+      "archive_capture_id": "za-paia-act"
+    },
+    "za-companies-act": {
+      "jurisdiction": "ZA",
+      "authority": "Parliament / President of South Africa; Government Printing Works",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "legislation",
+      "language": "en",
+      "publication_citation": "Companies Act 71 of 2008 — original publication",
+      "published_on": null,
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/201409/321214210.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/201409/321214210.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Local archival copy; not redistributed or relicensed."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "Companies Act 71 of 2008 — original publication",
+        "corporate"
+      ],
+      "related_source_ids": [],
+      "limits": "Original publication, not a current consolidation. Version/commencement/amendments require review. Local archival provenance is in the monitoring capture receipts.",
+      "archive_manifest": "docs/evidence/za-library-manifest.json",
+      "archive_capture_id": "za-companies-act"
+    },
+    "za-consumer-act": {
+      "jurisdiction": "ZA",
+      "authority": "Parliament / President of South Africa; Government Printing Works",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "legislation",
+      "language": "en",
+      "publication_citation": "Consumer Protection Act 68 of 2008 — original publication",
+      "published_on": null,
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/201409/321864670.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/201409/321864670.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Local archival copy; not redistributed or relicensed."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "Consumer Protection Act 68 of 2008 — original publication",
+        "consumer"
+      ],
+      "related_source_ids": [],
+      "limits": "Original publication, not a current consolidation. Version/commencement/amendments require review. Local archival provenance is in the monitoring capture receipts.",
+      "archive_manifest": "docs/evidence/za-library-manifest.json",
+      "archive_capture_id": "za-consumer-act"
+    },
+    "za-ecta-act": {
+      "jurisdiction": "ZA",
+      "authority": "Parliament / President of South Africa; Government Printing Works",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "legislation",
+      "language": "en",
+      "publication_citation": "Electronic Communications and Transactions Act 25 of 2002 — original publication",
+      "published_on": null,
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Local archival copy; not redistributed or relicensed."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "Electronic Communications and Transactions Act 25 of 2002 — original publication",
+        "ecommerce"
+      ],
+      "related_source_ids": [],
+      "limits": "Original publication, not a current consolidation. Version/commencement/amendments require review. Local archival provenance is in the monitoring capture receipts.",
+      "archive_manifest": "docs/evidence/za-library-manifest.json",
+      "archive_capture_id": "za-ecta-act"
+    },
+    "za-cannabis-act": {
+      "jurisdiction": "ZA",
+      "authority": "Parliament / President of South Africa; Government Printing Works",
+      "issuer_class": "official",
+      "host_class": "official",
+      "kind": "legislation",
+      "language": "en",
+      "publication_citation": "Cannabis for Private Purposes Act 7 of 2024 — original publication",
+      "published_on": null,
+      "publisher_url": "https://www.gov.za/sites/default/files/gcis_document/202406/50744-03-06-cannabisforprivatepurposesact-72024.pdf",
+      "access_url": "https://www.gov.za/sites/default/files/gcis_document/202406/50744-03-06-cannabisforprivatepurposesact-72024.pdf",
+      "data_license": {
+        "status": "unknown-reference-only",
+        "reference": null,
+        "scope": "Local archival copy; not redistributed or relicensed."
+      },
+      "version": null,
+      "provisions": {},
+      "evidence": [],
+      "keywords": [
+        "Cannabis for Private Purposes Act 7 of 2024 — original publication",
+        "cannabis"
+      ],
+      "related_source_ids": [],
+      "limits": "Original publication, not a current consolidation. Version/commencement/amendments require review. Local archival provenance is in the monitoring capture receipts.",
+      "archive_manifest": "docs/evidence/za-library-manifest.json",
+      "archive_capture_id": "za-cannabis-act"
     }
   }
 }

@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "coverage": "Six selected Acts and their official index pages. No full Gazette/municipal/tax/employment/medicines coverage. Linked amendments are not automatically downloaded.",
+  "sources": [
+    {
+      "id": "za-popia-act",
+      "title": "Protection of Personal Information Act 4 of 2013 — original publication",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf",
+      "format": "pdf",
+      "topics": [
+        "privacy"
+      ],
+      "publication_state": "published_original_not_current_consolidation",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-popia-index",
+      "title": "Protection of Personal Information Act 4 of 2013 — official index",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/nso/documents/protection-personal-information-act",
+      "format": "html",
+      "topics": [
+        "privacy"
+      ],
+      "publication_state": "index_unreviewed",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-paia-act",
+      "title": "Promotion of Access to Information Act 2 of 2000 — original publication",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a2-000.pdf",
+      "format": "pdf",
+      "topics": [
+        "access-to-information"
+      ],
+      "publication_state": "published_original_not_current_consolidation",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-paia-index",
+      "title": "Promotion of Access to Information Act 2 of 2000 — official index",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/nr/documents/promotion-access-information-act",
+      "format": "html",
+      "topics": [
+        "access-to-information"
+      ],
+      "publication_state": "index_unreviewed",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-companies-act",
+      "title": "Companies Act 71 of 2008 — original publication",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/321214210.pdf",
+      "format": "pdf",
+      "topics": [
+        "corporate"
+      ],
+      "publication_state": "published_original_not_current_consolidation",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-companies-index",
+      "title": "Companies Act 71 of 2008 — official index",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/documents/companies-act",
+      "format": "html",
+      "topics": [
+        "corporate"
+      ],
+      "publication_state": "index_unreviewed",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-consumer-act",
+      "title": "Consumer Protection Act 68 of 2008 — original publication",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/321864670.pdf",
+      "format": "pdf",
+      "topics": [
+        "consumer"
+      ],
+      "publication_state": "published_original_not_current_consolidation",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-consumer-index",
+      "title": "Consumer Protection Act 68 of 2008 — official index",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/documents/consumer-protection-act",
+      "format": "html",
+      "topics": [
+        "consumer"
+      ],
+      "publication_state": "index_unreviewed",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-ecta-act",
+      "title": "Electronic Communications and Transactions Act 25 of 2002 — original publication",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/201409/a25-02.pdf",
+      "format": "pdf",
+      "topics": [
+        "ecommerce"
+      ],
+      "publication_state": "published_original_not_current_consolidation",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-ecta-index",
+      "title": "Electronic Communications and Transactions Act 25 of 2002 — official index",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/documents/electronic-communications-and-transactions-act",
+      "format": "html",
+      "topics": [
+        "ecommerce"
+      ],
+      "publication_state": "index_unreviewed",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-cannabis-act",
+      "title": "Cannabis for Private Purposes Act 7 of 2024 — original publication",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/sites/default/files/gcis_document/202406/50744-03-06-cannabisforprivatepurposesact-72024.pdf",
+      "format": "pdf",
+      "topics": [
+        "cannabis"
+      ],
+      "publication_state": "published_original_not_current_consolidation",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    },
+    {
+      "id": "za-cannabis-index",
+      "title": "Cannabis for Private Purposes Act 7 of 2024 — official index",
+      "jurisdiction": "ZA",
+      "url": "https://www.gov.za/documents/acts/cannabis-private-purposes-act-7-2024-english-sepedi-03-jun-2024",
+      "format": "html",
+      "topics": [
+        "cannabis"
+      ],
+      "publication_state": "index_unreviewed",
+      "rights": "local-reference-only",
+      "reviewed_in_force_on": null
+    }
+  ]
+}

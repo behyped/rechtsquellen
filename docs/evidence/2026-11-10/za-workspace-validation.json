@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-11-09T23:42:16.113144+00:00",
+  "task": "South Africa source workspace and change detection",
+  "local_tests": {
+    "executed": 37,
+    "passed": 37,
+    "failed": 0
+  },
+  "public_export_tests": {
+    "discovered": 37,
+    "passed": 35,
+    "skipped_private_integrations": 2,
+    "failed": 0
+  },
+  "live_capture": {
+    "new_http_sources": 10,
+    "successful": 10,
+    "existing_captures_reused": 2,
+    "total_sources": 12,
+    "original_act_pdfs": 6,
+    "official_index_pages": 6
+  },
+  "controlled_fixture": {
+    "states": [
+      "baseline",
+      "changed",
+      "unchanged",
+      "fetch_error"
+    ],
+    "private_project_candidates": 3,
+    "live_cursor_modified": false
+  },
+  "model_calls": 0,
+  "m1_deployment": "not_performed",
+  "scheduler": "not_installed_by_this_change",
+  "messages_sent": 0,
+  "source_review_dates": "unchanged",
+  "tested_files": {
+    "scripts/watch_sources.py": "d30ae0d447e640398ab2d5397c6cbeb54da921ddca81bece3c545d6f3dd28c6d",
+    "tests/test_watch.py": "b054b739ef895ce55bc0e01b4b9a0e1c813315389064fbd4c99e43f125e29df1",
+    "monitoring/za.json": "7eb035183a52f3f24e59e6cfa69e5fe33783ea902d8c04c0dbd4a61b914d33a9"
+  },
+  "evidence_scope": "Source manifest is public; raw files, project routing and complete execution logs remain private."
+}

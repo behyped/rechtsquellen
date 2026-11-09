@@ -38,3 +38,10 @@ Fragen. Quellenprüfung und rechtliche Entscheidung bleiben getrennt.
 - [Datenrechte](../../DATA-RIGHTS.md) vor öffentlicher Übernahme prüfen.
   Kostenpflichtige Dienste, Nachrichten und rechtsverbindliche Entscheidungen
   benötigen die jeweilige Autorisierung; lokale Offline-Checks laufen ohne solche Dienste.
+
+## Quellen aufbewahren und verfolgen
+
+Bei einem Ablage- oder Aktualisierungsauftrag den [Arbeitsablauf](../../docs/monitoring/WORKSPACE.md)
+verwenden. `watch_sources.py check` speichert Originale und Inhaltsänderungen;
+`status --profiles DATEI` zeigt Alter, Fehler und mögliche Projektbezüge.
+Ein Monitorbefund erweitert den kuratierten Rechtsstand nicht automatisch.

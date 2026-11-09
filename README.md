@@ -30,6 +30,20 @@ Zitate, manipulierte Dateien und Pfade außerhalb der Nachweisablage.
 | [Sprach- und Kontextablauf](docs/countries/CY.md) | Griechische Originale, englische Hilfstexte, Schreibvarianten, Absatzbezug und unklare Übersetzungen |
 | [Vergleich bestehender Projekte](docs/RESEARCH.md) | Klotzkette, EUR-Lex-MCP, Legalize, Lawgent und aktueller Ausfall des Ansvar-CY-Pakets |
 
+## Gesetze sichern und aktuell halten
+
+[Der Arbeitsablauf](docs/monitoring/WORKSPACE.md) führt zur lokalen Bibliothek und
+zum einmaligen Änderungscheck. Der ZA-Startbestand umfasst sechs Originalgesetze
+und sechs amtliche Übersichtsseiten. Alte Dateien und Abrufquittungen bleiben
+versioniert erhalten; ein Inhaltswechsel erzeugt einen prüfbaren Befund.
+Projektinteressen können privat angebunden werden. Der gleiche JSON-Prozess lässt
+sich im vorhandenen OpenClaw-Monitor verwenden; ein Zeitplan ist nicht installiert.
+
+```sh
+python3 scripts/watch_sources.py check
+python3 scripts/watch_sources.py status
+```
+
 ## Mit Agenten arbeiten
 
 1 Skill: [Rechtsquellen-Triage](skills/rechtsquellen-triage/SKILL.md).

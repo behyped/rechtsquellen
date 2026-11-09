@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "projects": [
+    {
+      "project_ref": "example:za-online-store",
+      "jurisdictions": [
+        "ZA"
+      ],
+      "topics": [
+        "privacy",
+        "access-to-information",
+        "consumer",
+        "ecommerce"
+      ],
+      "basis_refs": [
+        "synthetic example, replace with existing project references"
+      ],
+      "review_target": null,
+      "open_questions": [
+        "Confirm actual operator, market and data flows."
+      ]
+    }
+  ]
+}
